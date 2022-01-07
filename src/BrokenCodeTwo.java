@@ -8,7 +8,7 @@ public class BrokenCodeTwo {
 		Boolean result; // changed from string to boolean
 		if (TempOne <= 0 && TempTwo >= 100) { /*
 												 * applied camel case, removed &, switched placement of 2nd equal sign
-						 				
+												 * 
 												 * and removed double quotations from 100 because it was not needed
 												 */
 			result = true;
