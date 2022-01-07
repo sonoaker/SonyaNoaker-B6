@@ -8,6 +8,7 @@ public class BrokenCodeTwo {
 		Boolean result; // changed from string to boolean
 		if (TempOne <= 0 && TempTwo >= 100) { /*
 												 * applied camel case, removed &, switched placement of 2nd equal sign
+						 				
 												 * and removed double quotations from 100 because it was not needed
 												 */
 			result = true;
@@ -38,14 +39,14 @@ public class BrokenCodeTwo {
 			break;
 		case "summer":
 			System.out.println("Toooo hot");
-			break;  //added one more break
+			break; // added one more break
 
 		default: // changed semicolon to colon
 			System.out.println("Season does not exist!");
 		}
 
 		for (int i = 0; i <= 10; i++) { // initialized & declared variable
-		 if (i == 5) {
+			if (i == 5) {
 				System.out.println("i equals to 5"); // removed capital i
 			} else { // removed parentheses
 				System.out.println(" i is not equal to 5"); // changed wording because it didn't make sense
@@ -54,4 +55,4 @@ public class BrokenCodeTwo {
 
 	}
 
-} //removed extra closing brackets
+} // removed extra closing brackets
